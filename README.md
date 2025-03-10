@@ -19,3 +19,4 @@ Proyek ini merupakan contoh integrasi beberapa bahasa pemrograman dalam satu alu
 ```bash
 git clone https://github.com/theoX443/tools kit.git
 cd toolskit
+./run_all.sh
