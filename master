@@ -1,0 +1,40 @@
+
+2. **Master Script** (simpan sebagai `run_all.sh`):
+```bash
+#!/bin/bash
+
+echo "🔄 Memulai proses eksekusi semua script..."
+echo "run_all.sh"
+
+# Jalankan Bash script
+echo "🐚 Menjalankan Bash script..."
+bash/bash/script.sh
+#!/bin/bash
+echo "Halo dari Bash! 🐧"
+echo "Tanggal sistem: $(date)"  "
+
+# Jalankan Python script
+echo "#!/usr/bin/env python3
+from termcolor import colored
+def main():
+    print(colored("Halo dari Python! 🐍", "green"))
+    print(colored("Versi Python yang digunakan:", "blue"), end=" ")
+    print(colored(f"{__import__('sys').version}", "yellow"))
+
+if __name__ == "__main__":
+    main() " "
+python3 python/script.py
+
+# Jalankan Go program
+echo "🐹 Menjalankan Go program..."
+go/hello
+echo "package main
+import "fmt"
+func main() {
+    fmt.Println("🦫 Halo dari Go!")
+    fmt.Printf("Versi Go: %s\n", runtime.Version())
+}"
+chmod +x run_all.sh bash/script.sh python/script.py
+cd go && go build -o hello && cd ..
+pip install -r python/requirements.txt
+echo "✅ Semua proses selesai dijalankan!"
