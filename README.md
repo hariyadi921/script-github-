@@ -1,16 +1,6 @@
-# Multi-Language Automation Project
-
-Proyek ini merupakan contoh integrasi beberapa bahasa pemrograman dalam satu alur kerja otomatisasi.
-
-## 🚀 Fitur
-- Menjalankan script Bash
-- Menjalankan program Python dengan modul PIP
-- Menjalankan program Golang
-- Skrip master untuk menjalankan semua proses
-
 ## 📋 Persyaratan
 - Python 3.x
-- pip (Python Package Installer)
+- pip install -r requirements.txt
 - Golang 1.15+
 - Bash shell
 
