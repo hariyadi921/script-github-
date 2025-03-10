@@ -1,0 +1,32 @@
+## 📋 Persyaratan
+- Python 3.x
+- pip install -r requirements.txt
+- Golang 1.15+
+echo "("cd go && go build -o hello && cd ..")"
+- Bash shell
+#!/bin/bash
+echo "Halo dari Bash! 🐧"
+echo "$(date)"
+## ⚙️ Instalasi
+1. Clone repositori ini:
+```bash
+git clone https://github.com/theox443/toolkit.git
+cd nama-repo
+# Bash script
+bash/script.sh
+
+# Python script
+python3 python/scrip.py
+
+# Go program
+go/hello
+cd go && go build -o hello && cd ..
+pip install -r requirements.txt
+# Bash script
+bash/script.sh
+
+# Python script
+python3 python/script.py
+
+# Go program
+go/hello
